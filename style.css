@@ -210,8 +210,12 @@ header .navbar {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
+
+ 
 
 .interview-item input[type="text"],
 .interview-item textarea,
@@ -280,7 +284,7 @@ header .navbar {
 .proverb-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* gap: 30px; */
+  gap: 0px;
   padding: 40px;
   justify-content: center;
 }
